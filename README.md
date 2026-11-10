@@ -21,3 +21,17 @@
 ## 更新内容
 
 修改 index.html 更新介绍和手记，修改 style.css 调整外观。图片在 assets/。所有引用使用相对路径，兼容 GitHub Pages 项目网址。游戏实机与宣传插画已在页面标明。
+
+## 已发布
+
+官网：https://rick1269.github.io/three-studio/
+
+仓库：https://github.com/rick1269/three-studio
+
+官网在独立 GitHub 仓库中维护，与 Maker 游戏仓库分开。
+
+## 页面结构
+
+- `index.html`：工作室介绍与游戏作品列表。
+- `games/campfire/index.html`：《海岛聚落：篝火纪事》独立介绍页。
+- 后续游戏可在 `games/` 下新增目录，再为首页作品区添加入口。

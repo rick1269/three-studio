@@ -10,5 +10,5 @@ document.querySelectorAll('.image-open').forEach(button => {
     viewer.showModal();
   });
 });
-document.getElementById('close-viewer').addEventListener('click', () => viewer.close());
-viewer.addEventListener('click', event => { if (event.target === viewer) { const box = viewer.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) viewer.close(); } });
+document.getElementById('close-viewer')?.addEventListener('click', () => viewer.close());
+viewer?.addEventListener('click', event => { if (event.target === viewer) { const box = viewer.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) viewer.close(); } });
